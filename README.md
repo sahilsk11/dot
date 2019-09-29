@@ -13,6 +13,19 @@ I first turned to [neal.fun](http://neil.fun) for ideas. I've seen some of his i
 
 I thought [macaroni art](https://macaroni-art.glitch.me/) and his [make a constellation](https://make-a-constellation.glitch.me/) projects were cool. The latter reminded me off a "connect the dots" sort of game, and I vibed with the idea. I thought it would be cool to re-create my childhood restaurant experiences of connecting the dots.
 
+## My take: How to Build a Circle
+
+My most creative way to get a circle to appear is make the user draw it.
+
+I debated a few options, including:
+ - printing the word "circle" on the screen
+ - pointing to a Wikipedia page on circles
+ - Pixel-by-pixel color flips to arrange a circle
+
+ In the end, I thought more critically about the purpose of this project. It is to highlight creativity, fun, and engineering talent as part of an application, so I settled for a canvas-based connect the dots method!
+
+ Plus, a little more experience with using HTML Canvas would probably come in handy.
+
 ## Development
 
 ![](img/take1.png)
@@ -72,5 +85,6 @@ For the Socket.IO portion, I could have added the ability to "remember state" an
 
 - [Neal Agarwal](https://nealagarwal.me/) for the theme inspiration
 - [Linus Lee](https://www.ocf.berkeley.edu/~linuslee/) for telling me about DRF
-- [Saransh Sinha](https://codepen.io/saransh/pen/BKJun) for the incredible starry night library
+- [Saransh Sinha](https://codepen.io/saransh/pen/BKJun) for the incredible starry night background
+- [Mo.js](https://github.com/mojs/mojs) for the snazzy click animations
 - And the DRF team for a fun project!
