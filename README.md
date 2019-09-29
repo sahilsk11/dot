@@ -1,5 +1,4 @@
 # Dot ⚫
-No clue how we got here, but it was a blast!
 
 ## Background
 
