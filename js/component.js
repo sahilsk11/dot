@@ -105,9 +105,9 @@ class MusicController extends React.Component {
   }
   render() {
     if (this.state.pause) {
-      return (<img src="img/mute.png" onClick={() => this.togglePause()} class="music-controller" />);
+      return (<img src="img/mute.png" onClick={() => this.togglePause()} className="music-controller" />);
     } else {
-      return (<img src="img/volume.png" onClick={() => this.togglePause()} class="music-controller" />);
+      return (<img src="img/volume.png" onClick={() => this.togglePause()} className="music-controller" />);
     }
   }
 }
@@ -149,7 +149,7 @@ class Dot extends React.Component {
   render() {
     return (
       <div className="dot-wrapper" id={this.props.index}>
-        <div onClick={() => this.props.clicked(this.props.index)} class="dot" id={"dot-" + this.props.index}>
+        <div onClick={() => this.props.clicked(this.props.index)} className="dot" id={"dot-" + this.props.index}>
           <p id={"label-" + this.props.index.toString()} className="label">{this.props.index + 1}</p>
           <img id={"image-" + this.props.index.toString()} src={this.getImage(this.props.index)} className="dot-image" />
         </div>
