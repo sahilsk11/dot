@@ -1,5 +1,13 @@
 # Dot ⚫
 
+## How to Use
+
+You can view the final result at [dot.sahilkapur.com](http://dot.sahilkapur.com).
+
+Alternatively, you can clone/download the repo, navigate to the root directory in your CLI, and run `npm start` to let the magic begin ✨
+
+(note: `npm` is required to run from local machine)
+
 ## Background
 
 As part of the application process for Dormroom Fund HQ, applicants are tasked with making a circle in the most creative way possible. 
