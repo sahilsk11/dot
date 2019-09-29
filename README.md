@@ -30,7 +30,9 @@ I initially developed Dot in vanilla HTML/CSS/JS, but quickly realized it would 
 
 ### Adding the Circle
 
-To generate the cirle, I considered the ability to actually "draw" on the screen, but didn't want to validate the start and end points for every line the user could draw. Following Neal's example from the constellation, I opted for point-click and automatic lines.
+To generate the circle, I considered the ability to actually "draw" on the screen, but didn't want to validate the start and end points for every line the user could draw. Following Neal's example from the constellation, I opted for point-click and automatic lines.
+
+Using a canvas, I set the start point for the first dot, and increased the total rotation of the circle each time the user connected the next dot.
 
 Aligning the canvas lines and the dots took a lot of trial-and-error, but I finally succeeded in getting the math right for positioning and adding new segements.
 
@@ -56,10 +58,14 @@ Next steps:
 
 The last step was the trickiest, but I opted for a constellation-type vibe to give tribute to my inspiration. I wanted to re-create a "starry night" theme, and set a cool, relaxed environment.
 
-I tested various color schemes, and stumbled upon a [beautiful CSS background library](https://codepen.io/saransh/pen/BKJun). Around the same time, I had a friend who reminded me about "The Circle of Life" from Lion King, so I dropped a MP3 play button for a full experience!
+I tested various color schemes, and stumbled upon a [beautiful starry night CSS background library](https://codepen.io/saransh/pen/BKJun). Around the same time, I had a friend who reminded me about "The Circle of Life" from Lion King, so I dropped a MP3 play button for a full experience!
 
 ## Conclusion
 
+Final product:
+![](img/v2.png)
+
+### Next Steps
 For the Socket.IO portion, I could have added the ability to "remember state" and how many dots were drawn (this is saved in React State). However, building out this feature was beyond my time allocation, and I was happy with the overall look and feel of the project!
 
 ## Thanks to...
