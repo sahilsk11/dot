@@ -1,10 +1,17 @@
 # Dot ⚫
 
-## How to Use
-
+### Usage
 You can view the final result at [dot.sahilkapur.com](http://dot.sahilkapur.com).
 
-Alternatively, you can clone/download the repo, navigate to the root directory in your CLI, and run `npm start` to let the magic begin ✨
+#### View Locally
+
+If you want to run locally:
+
+1. Clone/download the repo
+2. Navigate to the root of the project using terminal/CLI
+3. Run `npm install` to install dependencies
+4. Run `npm start` to launch the application
+5. Immerse yourself in the magic ✨
 
 (note: `npm` is required to run from local machine)
 
