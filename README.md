@@ -1,5 +1,4 @@
 # Dot ⚫
-No clue how we got here, but it was a blast!
 
 ## Background
 
@@ -85,6 +84,7 @@ For the Socket.IO portion, I could have added the ability to "remember state" an
 
 - [Neal Agarwal](https://nealagarwal.me/) for the theme inspiration
 - [Linus Lee](https://www.ocf.berkeley.edu/~linuslee/) for telling me about DRF
-- [Saransh Sinha](https://codepen.io/saransh/pen/BKJun) for the incredible starry night background
 - [Mo.js](https://github.com/mojs/mojs) for the snazzy click animations
+- And the DRF team for a fun project!
+- [Saransh Sinha](https://codepen.io/saransh/pen/BKJun) for the incredible starry night library
 - And the DRF team for a fun project!
