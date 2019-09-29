@@ -27,7 +27,7 @@ I debated a few options, including:
 
 ## Development
 
-![](img/take1.png)
+![](public/img/take1.png)
 (10 minutes in)
 
 ### Making dots
@@ -53,7 +53,7 @@ Aligning the canvas lines and the dots took a lot of trial-and-error, but I fina
 It this point, the functionality was complete. A user could click on dots to connect them, and the program would draw circles along the way.
 
 However, it looked similar to the sketch below:
-![](img/v1.png)
+![](public/img/v1.png)
 
 It was simplistic, but not engaging whatsoever. After about 4/15 "clicks" to connect the dots, it was no longer fun.
 
@@ -75,7 +75,7 @@ I tested various color schemes, and stumbled upon a [beautiful starry night CSS 
 ## Conclusion
 
 Final product:
-![](img/v2.png)
+![](public/img/v2.png)
 
 ### Next Steps
 For the Socket.IO portion, I could have added the ability to "remember state" and how many dots were drawn (this is saved in React State). However, building out this feature was beyond my time allocation, and I was happy with the overall look and feel of the project!
@@ -85,6 +85,5 @@ For the Socket.IO portion, I could have added the ability to "remember state" an
 - [Neal Agarwal](https://nealagarwal.me/) for the theme inspiration
 - [Linus Lee](https://www.ocf.berkeley.edu/~linuslee/) for telling me about DRF
 - [Mo.js](https://github.com/mojs/mojs) for the snazzy click animations
-- And the DRF team for a fun project!
 - [Saransh Sinha](https://codepen.io/saransh/pen/BKJun) for the incredible starry night library
 - And the DRF team for a fun project!
