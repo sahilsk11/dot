@@ -34,7 +34,7 @@ My most creative way to get a circle to appear is make the user draw it.
 I debated a few options, including:
  - printing the word "circle" on the screen
  - pointing to a Wikipedia page on circles
- - Pixel-by-pixel color flips to arrange a circle
+ - cell-by-cell color flips on a table/matrix to arrange a circle
 
  In the end, I thought more critically about the purpose of this project. It is to highlight creativity, fun, and engineering talent as part of an application, so I settled for a canvas-based connect the dots method!
 

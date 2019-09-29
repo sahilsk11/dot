@@ -24,7 +24,7 @@ class DotMap extends React.Component {
       this.setState({ lastClicked: index });
     } else {
       if (this.state.lastClicked === 14 && index === 0) {
-        this.setState({ lastClicked: null, dotsVisible: 17 });
+        this.setState({ lastClicked: 14, dotsVisible: 17 });
       } else if (this.state.lastClicked + 1 === index) {
         this.setState({ lastClicked: index, dotsVisible: index + 2 });
       }
